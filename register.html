@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		@import url('register.css');
+		@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+/*		@import url('https://kit.fontawesome.com/a076d05399.js' );*/
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="user.html">User</a></li>
+			<li><a href="admin.html">Admin</a></li>
+		</ul>
+	</nav>
+	<div class="afternav">
+		<h2>WELCOME TO ONLINE ELECTION SYSTEM</h2>
+	</div>
+	<div class="afterimg">
+		<form class="form1" action="Register" method="post"><br><br><br>
+			<h1>User Register</h1>
+			<div id=nam><i style="font-size:20px;color: #2525d5;" class="fa">&#xf007;</i><input type="text" name="name" placeholder="Name" required></div><br><br>
+			<div id=date><i style="font-size:20px;color: #2525d5;" class="fa">&#xf073;</i><input type="date" name="date" required></div><br><br>
+
+			<div id=email><i style="font-size:20px;color: #2525d5;" class="fa">&#xf0e0;</i><input type="email" name="email" placeholder="Email" required></div><br><br>
+
+			<div id=select><i style="font-size:20px;color: #2525d5;" class="fa">&#xf183;</i><select name="gender" required>
+				<option>Select Your Gender</option>
+				<option>Male</option>
+				<option>Female</option>
+				<option>Other</option>
+			</select>
+			</div><br><br>
+			<div id=phone><i style="font-size:20px;color: #2525d5;" class="fa">&#xf095;</i><input type="text" name="phone" placeholder="Phone No" required></div>	<br><br>
+			<div id=add><i style="font-size:20px;color: #2525d5;" class="fa">&#xf015;</i><input type="text" name="address" placeholder="Address" required></div>	<br><br>
+
+			<div id=pass><i style="font-size:20px;color: #2525d5;" class="fa">&#xf084;</i><input type="password" name="pass" placeholder="Password" required></div>	<br><br>
+			<input id="sub" type="submit" value="SIGN-UP">
+		</form><br><br>
+		<!-- <span id="reg">Click Here To <a href="register.html">Register!</a></span><br><br> -->
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<web-app>
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>Register</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>User</servlet-name>
+		<servlet-class>User</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>User</servlet-name>
+		<url-pattern>/User</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Admin</servlet-name>
+		<servlet-class>Admin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Admin</servlet-name>
+		<url-pattern>/Admin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MyServletContext</servlet-name>
+		<servlet-class>MyServletContext</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyServletContext</servlet-name>
+		<url-pattern>/context</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Aprove</servlet-name>
+		<servlet-class>Aprove</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Aprove</servlet-name>
+		<url-pattern>/Aprove</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddElection</servlet-name>
+		<servlet-class>AddElection</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddElection</servlet-name>
+		<url-pattern>/AddEle</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddCandidate</servlet-name>
+		<servlet-class>AddCandidate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddCandidate</servlet-name>
+		<url-pattern>/addCand</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Vote</servlet-name>
+		<servlet-class>Vote</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Vote</servlet-name>
+		<url-pattern>/vot</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
